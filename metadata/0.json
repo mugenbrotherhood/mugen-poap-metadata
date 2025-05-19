@@ -1,5 +1,6 @@
 {
   "name": "Mugen POAP - LA 2025",
-  "description": "Commemorative POAP for attending Mugen’s LA activation",
-  "image": "https://cdn.mugen.xyz/images/la-poap.png"
+  "description": "Animated POAP for Mugen’s LA activation",
+  "image": "https://yourdomain.com/static-thumbnail.png",
+  "animation_url": "https://yourdomain.com/mugen-poap.mp4"
 }
