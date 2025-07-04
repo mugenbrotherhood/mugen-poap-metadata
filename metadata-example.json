@@ -1,0 +1,20 @@
+{
+  "name": "Mugen POAP #1",
+  "description": "Proof of Attendance Protocol for Mugen Event",
+  "image": "https://your-domain.com/images/mugen-poap.png",
+  "external_url": "https://mugen.xyz",
+  "attributes": [
+    {
+      "trait_type": "Event",
+      "value": "Mugen Launch"
+    },
+    {
+      "trait_type": "Date",
+      "value": "2024-01-15"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Limited Edition"
+    }
+  ]
+} 
