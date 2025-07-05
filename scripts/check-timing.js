@@ -3,7 +3,7 @@ async function main() {
   
   // Same timing as deployment script
   const mintStart = Math.floor(new Date('2025-07-05T02:00:00.000Z').getTime() / 1000);
-  const mintEnd = Math.floor(new Date('2025-07-06T03:00:00.000Z').getTime() / 1000);
+  const mintEnd = Math.floor(new Date('2025-07-06T07:00:00.000Z').getTime() / 1000);
   
   // Convert to readable dates
   const startDateET = new Date(mintStart * 1000).toLocaleString("en-US", {
@@ -46,8 +46,8 @@ async function main() {
   console.log("");
   console.log("🗓️  SUMMARY:");
   console.log("   Minting opens: Friday July 4th at 10:00 PM ET");
-  console.log("   Minting closes: Saturday July 5th at 11:00 PM ET");
-  console.log("   Total window: 25 hours");
+  console.log("   Minting closes: Sunday July 6th at 3:00 AM ET");
+  console.log("   Total window: 29 hours");
   console.log("");
   
   // Check if timing is in the future

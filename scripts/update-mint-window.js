@@ -14,9 +14,9 @@ async function main() {
   const POAP = await ethers.getContractFactory("MugenPOAP");
   const poap = POAP.attach(contractAddress);
   
-  // Phase 2 timing - July 4th-5th, 2025
+  // Phase 2 timing - July 4th-6th, 2025
   const phase2Start = Math.floor(new Date('2025-07-05T02:00:00.000Z').getTime() / 1000);
-  const phase2End = Math.floor(new Date('2025-07-06T03:00:00.000Z').getTime() / 1000);
+  const phase2End = Math.floor(new Date('2025-07-06T07:00:00.000Z').getTime() / 1000);
   
   // Convert to readable dates
   const startDateET = new Date(phase2Start * 1000).toLocaleString("en-US", {
@@ -82,7 +82,7 @@ async function main() {
   console.log("New mint start:", new Date(Number(newStart) * 1000).toISOString());
   console.log("New mint end:", new Date(Number(newEnd) * 1000).toISOString());
   
-  console.log("\n🎉 Ready for Phase 2: July 4th-5th Main Event!");
+  console.log("\n🎉 Ready for Phase 2: July 4th-6th Main Event!");
   console.log("Explorer:", `https://explorer-animechain-39xf6m45e3.t.conduit.xyz/address/${contractAddress}`);
 }
 

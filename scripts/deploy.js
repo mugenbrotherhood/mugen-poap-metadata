@@ -63,9 +63,9 @@ async function main() {
   console.log("Chain ID:", (await deployer.provider.getNetwork()).chainId);
   console.log("Explorer URL:", `https://explorer-animechain-39xf6m45e3.t.conduit.xyz/address/${contractAddress}`);
   
-  // Calculate Phase 2 timing (July 4th-5th)
+  // Calculate Phase 2 timing (July 4th-6th)
   const phase2Start = Math.floor(new Date('2025-07-05T02:00:00.000Z').getTime() / 1000);
-  const phase2End = Math.floor(new Date('2025-07-06T03:00:00.000Z').getTime() / 1000);
+  const phase2End = Math.floor(new Date('2025-07-06T07:00:00.000Z').getTime() / 1000);
   
   console.log("\n=== PHASE 2: MAIN EVENT SETUP ===");
   console.log("After Phase 1 ends, run this command to update mint window:");
@@ -73,7 +73,7 @@ async function main() {
   console.log("");
   console.log("Phase 2 will be:");
   console.log("Start: Friday July 4th, 2025 at 10:00 PM ET");
-  console.log("End: Saturday July 5th, 2025 at 11:00 PM ET");
+  console.log("End: Sunday July 6th, 2025 at 3:00 AM ET");
   console.log("Unix timestamps:", phase2Start, "to", phase2End);
   
   // Verify contract parameters
